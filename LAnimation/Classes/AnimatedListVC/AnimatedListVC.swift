@@ -8,6 +8,7 @@
 
 import UIKit
 
+private let reuseIdentifier = "AnimatedListCell"
 class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
@@ -17,7 +18,8 @@ class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        dataArr = ["AnimatedPageControl","EvernoteListVC","PullToRefreshVC"]
+        dataArr = ["AnimatedPageControl","EvernoteList","PullToRefresh"]
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
         // Do any additional setup after loading the view.
     }
 
@@ -26,7 +28,6 @@ class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource
         // Dispose of any resources that can be recreated.
     }
 
-    
     // MARK: - UITableView datasource and delegate
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -38,32 +39,31 @@ class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 40
+        return 50
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath as IndexPath)
         cell.textLabel?.text = dataArr[indexPath.row] as? String
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var vc = UIViewController()
         switch indexPath.row {
         case 0:
             let story = UIStoryboard.init(name: "Main", bundle:Bundle.main)
-            let pageControlVC = story.instantiateViewController(withIdentifier: "PageControlVC")
-            self.navigationController?.pushViewController(pageControlVC, animated: true)
+            vc = story.instantiateViewController(withIdentifier: "PageControlVC")
             break
         case 1:
-            let evernoteListVC = EvernoteListVC()
-            self.navigationController?.pushViewController(evernoteListVC, animated: true)
+            vc = EvernoteListVC()
             break
         case 2:
-            let pullToRefreshVC = PullToRefreshVC()
-            self.navigationController?.pushViewController(pullToRefreshVC, animated: true)
+            vc = PullToRefreshVC()
             break
-        default: break
+        default:
+            return
         }
+        self.navigationController?.pushViewController(vc, animated: true)
     }
-
 }

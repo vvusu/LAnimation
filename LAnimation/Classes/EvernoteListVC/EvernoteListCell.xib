@@ -23,13 +23,13 @@
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3w-Cq-5HD">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3w-Cq-5HD">
                         <constraints>
                             <constraint firstAttribute="width" constant="41" id="K3j-av-O9Q"/>
                             <constraint firstAttribute="height" constant="45" id="TfF-RH-auR"/>
                         </constraints>
                         <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <state key="normal" image="back"/>
+                        <state key="normal" title="back"/>
                     </button>
                     <view alpha="0.0" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n4g-G6-qYz">
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,7 +78,7 @@ When I arrive in my office each morning, I’m greeted by framed photos of Dr. K
                 <constraint firstItem="4Bk-9j-JEk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gkA-E7-Lf2"/>
                 <constraint firstItem="hCE-7T-Gg3" firstAttribute="top" secondItem="n4g-G6-qYz" secondAttribute="bottom" id="jJ3-ti-TJw"/>
                 <constraint firstItem="N3w-Cq-5HD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wbU-UF-NlL"/>
-                <constraint firstItem="4Bk-9j-JEk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="xUd-bY-UXl"/>
+                <constraint firstItem="4Bk-9j-JEk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="35" id="xUd-bY-UXl"/>
             </constraints>
             <size key="customSize" width="320" height="161"/>
             <variation key="default">
@@ -87,16 +87,13 @@ When I arrive in my office each morning, I’m greeted by framed photos of Dr. K
                 </mask>
             </variation>
             <connections>
-                <outlet property="backButton" destination="N3w-Cq-5HD" id="VIZ-43-Vac"/>
+                <outlet property="backButton" destination="N3w-Cq-5HD" id="soG-MO-YD0"/>
                 <outlet property="labelLeadCons" destination="xUd-bY-UXl" id="Kal-gM-mxy"/>
                 <outlet property="textView" destination="hCE-7T-Gg3" id="4YQ-8Q-V8a"/>
                 <outlet property="titleLabel" destination="4Bk-9j-JEk" id="wTT-2G-M6Z"/>
                 <outlet property="titleLine" destination="n4g-G6-qYz" id="M4j-AM-0IV"/>
             </connections>
-            <point key="canvasLocation" x="-108" y="-49"/>
+            <point key="canvasLocation" x="-190" y="-88"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="back" width="11" height="24"/>
-    </resources>
 </document>

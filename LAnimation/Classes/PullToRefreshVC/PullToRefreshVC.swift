@@ -42,7 +42,6 @@ class PullToRefreshVC: UIViewController,UITableViewDelegate,UITableViewDataSourc
     
     func loadCustomRefreshContents() {
         let refreshContents = Bundle.main.loadNibNamed("RefreshContents", owner: self, options: nil)
-        
         customView = refreshContents?[0] as! UIView
         customView.frame = refreshControl.bounds
         

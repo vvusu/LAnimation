@@ -28,11 +28,12 @@ class EvernoteVC: UIViewController {
         totalView.backgroundColor = domainColor
         titleLabel.text = titleName
         textView.contentOffset = CGPoint.init(x: 0, y: 0)
-        let tap = UITapGestureRecognizer(target: self, action: Selector(("handleTapGesture:")))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTapGesture(_:)))
+        
         self.totalView.addGestureRecognizer(tap)
     }
     
-    func handleTapGesture(gesture: UITapGestureRecognizer) {
+    func handleTapGesture(_ sender: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
     

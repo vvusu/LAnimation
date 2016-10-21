@@ -25,7 +25,7 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
         self.finalFrame = finalFrame
         self.panViewController = panViewController
         self.listViewController = listViewController
-        let pan = UIScreenEdgePanGestureRecognizer(target: self, action: Selector(("handlePanGesture:")))
+        let pan = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(self.handlePanGesture(recognizer:)))
         pan.edges = UIRectEdge.left
         self.panViewController.view.addGestureRecognizer(pan)
     }
@@ -96,7 +96,7 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
     }
     
     //手势
-    func handlePanGesture(recognizer:UIScreenEdgePanGestureRecognizer) {
+    func handlePanGesture(recognizer : UIScreenEdgePanGestureRecognizer) {
         let view = panViewController.view
         if recognizer.state == UIGestureRecognizerState.began {
             panViewController.dismiss(animated: true, completion: { () -> Void in

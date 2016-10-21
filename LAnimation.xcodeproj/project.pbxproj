@@ -212,13 +212,13 @@
 		AF07CE461DB8C61D005A7718 /* EvernoteListVC */ = {
 			isa = PBXGroup;
 			children = (
-				AF07CE4A1DB8C705005A7718 /* EvernoteListCell.swift */,
-				AF07CE4B1DB8C705005A7718 /* EvernoteTransition.swift */,
 				AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */,
+				AF07CE471DB8C677005A7718 /* EvernoteListVC.swift */,
+				AF07CE4A1DB8C705005A7718 /* EvernoteListCell.swift */,
+				AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */,
+				AF07CE4B1DB8C705005A7718 /* EvernoteTransition.swift */,
 				AF07CE4D1DB8C705005A7718 /* Evernote.storyboard */,
 				AF07CE4E1DB8C705005A7718 /* EvernoteListCell.xib */,
-				AF07CE471DB8C677005A7718 /* EvernoteListVC.swift */,
-				AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */,
 			);
 			path = EvernoteListVC;
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				TargetAttributes = {
 					AF07CDD81DB87012005A7718 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZP2E8ST637;
 						ProvisioningStyle = Automatic;
 					};
 					AF07CDEC1DB87012005A7718 = {
@@ -525,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZP2E8ST637;
 				INFOPLIST_FILE = LAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimation;
@@ -537,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZP2E8ST637;
 				INFOPLIST_FILE = LAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimation;

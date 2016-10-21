@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "EvernoteListCell"
 private let topPadding:CGFloat = 64
 public let BGColor = UIColor(red: 56.0/255.0, green: 51/255.0, blue: 76/255.0, alpha: 1.0)
 
@@ -16,7 +16,7 @@ class EvernoteListVC: UIViewController,UICollectionViewDelegate,UICollectionView
     private let colorArray = NSMutableArray()
     private let rowNumber = 15
     private let customTransition = EvernoteTransition()
-    private let collectionView = UICollectionView(frame: CGRect.init(x: 0, y: topPadding, width: screenWidth, height: screenHeight - topPadding), collectionViewLayout: EvernoteLayout())
+    private let collectionView = UICollectionView(frame: CGRect(x: 0, y: topPadding, width: screenWidth, height: screenHeight - topPadding), collectionViewLayout: EvernoteLayout())
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = BGColor
@@ -27,16 +27,16 @@ class EvernoteListVC: UIViewController,UICollectionViewDelegate,UICollectionView
         collectionView.contentInset = UIEdgeInsetsMake(0, 0, verticallyPadding, 0);
         
         self.view.addSubview(collectionView)
-        let nib = UINib(nibName: "EvernoteListCell", bundle: nil)
+        let nib = UINib(nibName: reuseIdentifier, bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: reuseIdentifier)
         
-        let random = arc4random() % 360 // 160 arc4random() % 360
+        // 160 arc4random() % 360
+        let random = arc4random() % 360
         for index in 0 ..< rowNumber {
             let hue = Float((Int(random) + index * 6) % 360) / 360.0
             let color = UIColor.init(hue: CGFloat(hue), saturation: 0.7, brightness: 1.0, alpha: 1.0)
             colorArray.add(color)
         }
-        
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {

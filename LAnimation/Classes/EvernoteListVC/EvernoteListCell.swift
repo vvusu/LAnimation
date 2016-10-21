@@ -9,13 +9,13 @@
 import UIKit
 
 class EvernoteListCell: UICollectionViewCell {
-
-    @IBOutlet internal weak var backButton: UIButton!
     @IBOutlet internal weak var titleLine: UIView!
-    @IBOutlet internal weak var textView: UITextView! 
     @IBOutlet internal weak var titleLabel: UILabel!
+    @IBOutlet internal weak var textView: UITextView!
+    @IBOutlet internal weak var backButton: UIButton!
     @IBOutlet internal weak var labelLeadCons: NSLayoutConstraint!
     internal var horizonallyCons = NSLayoutConstraint()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.masksToBounds = true
