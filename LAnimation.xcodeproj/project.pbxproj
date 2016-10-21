@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF07CDDD1DB87012005A7718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CDDC1DB87012005A7718 /* AppDelegate.swift */; };
+		AF07CDE41DB87012005A7718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF07CDE31DB87012005A7718 /* Assets.xcassets */; };
+		AF07CDF21DB87012005A7718 /* LAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CDF11DB87012005A7718 /* LAnimationTests.swift */; };
+		AF07CDFD1DB87012005A7718 /* LAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CDFC1DB87012005A7718 /* LAnimationUITests.swift */; };
+		AF07CE291DB87080005A7718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF07CE271DB87080005A7718 /* LaunchScreen.storyboard */; };
+		AF07CE2A1DB87080005A7718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF07CE281DB87080005A7718 /* Main.storyboard */; };
+		AF07CE351DB87094005A7718 /* LNAnimatedPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE2D1DB87094005A7718 /* LNAnimatedPageControl.swift */; };
+		AF07CE361DB87094005A7718 /* LNGooeyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE2E1DB87094005A7718 /* LNGooeyCircle.swift */; };
+		AF07CE371DB87094005A7718 /* LNIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE2F1DB87094005A7718 /* LNIndicator.swift */; };
+		AF07CE381DB87094005A7718 /* LNPageLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE301DB87094005A7718 /* LNPageLine.swift */; };
+		AF07CE391DB87094005A7718 /* LNRotateRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE311DB87094005A7718 /* LNRotateRect.swift */; };
+		AF07CE3A1DB87094005A7718 /* LNSpringLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE321DB87094005A7718 /* LNSpringLayerAnimation.swift */; };
+		AF07CE3B1DB87094005A7718 /* PageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE331DB87094005A7718 /* PageControlCell.swift */; };
+		AF07CE3C1DB87094005A7718 /* PageControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE341DB87094005A7718 /* PageControlVC.swift */; };
+		AF07CE481DB8C677005A7718 /* EvernoteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE471DB8C677005A7718 /* EvernoteListVC.swift */; };
+		AF07CE501DB8C705005A7718 /* EvernoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE4A1DB8C705005A7718 /* EvernoteListCell.swift */; };
+		AF07CE511DB8C705005A7718 /* EvernoteTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE4B1DB8C705005A7718 /* EvernoteTransition.swift */; };
+		AF07CE531DB8C705005A7718 /* Evernote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF07CE4D1DB8C705005A7718 /* Evernote.storyboard */; };
+		AF07CE541DB8C705005A7718 /* EvernoteListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF07CE4E1DB8C705005A7718 /* EvernoteListCell.xib */; };
+		AF07CE571DB8C804005A7718 /* AnimatedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */; };
+		AF07CE591DB9BA00005A7718 /* EvernoteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */; };
+		AF07CE5D1DB9BB01005A7718 /* EvernoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF07CDEE1DB87012005A7718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF07CDD11DB87012005A7718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF07CDD81DB87012005A7718;
+			remoteInfo = LAnimation;
+		};
+		AF07CDF91DB87012005A7718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF07CDD11DB87012005A7718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF07CDD81DB87012005A7718;
+			remoteInfo = LAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF07CDD91DB87012005A7718 /* LAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF07CDDC1DB87012005A7718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF07CDE31DB87012005A7718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF07CDE81DB87012005A7718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF07CDED1DB87012005A7718 /* LAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF07CDF11DB87012005A7718 /* LAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAnimationTests.swift; sourceTree = "<group>"; };
+		AF07CDF31DB87012005A7718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF07CDF81DB87012005A7718 /* LAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF07CDFC1DB87012005A7718 /* LAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAnimationUITests.swift; sourceTree = "<group>"; };
+		AF07CDFE1DB87012005A7718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF07CE271DB87080005A7718 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF07CE281DB87080005A7718 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF07CE2D1DB87094005A7718 /* LNAnimatedPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNAnimatedPageControl.swift; sourceTree = "<group>"; };
+		AF07CE2E1DB87094005A7718 /* LNGooeyCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNGooeyCircle.swift; sourceTree = "<group>"; };
+		AF07CE2F1DB87094005A7718 /* LNIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNIndicator.swift; sourceTree = "<group>"; };
+		AF07CE301DB87094005A7718 /* LNPageLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNPageLine.swift; sourceTree = "<group>"; };
+		AF07CE311DB87094005A7718 /* LNRotateRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNRotateRect.swift; sourceTree = "<group>"; };
+		AF07CE321DB87094005A7718 /* LNSpringLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSpringLayerAnimation.swift; sourceTree = "<group>"; };
+		AF07CE331DB87094005A7718 /* PageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlCell.swift; sourceTree = "<group>"; };
+		AF07CE341DB87094005A7718 /* PageControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlVC.swift; sourceTree = "<group>"; };
+		AF07CE471DB8C677005A7718 /* EvernoteListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteListVC.swift; sourceTree = "<group>"; };
+		AF07CE4A1DB8C705005A7718 /* EvernoteListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteListCell.swift; sourceTree = "<group>"; };
+		AF07CE4B1DB8C705005A7718 /* EvernoteTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteTransition.swift; sourceTree = "<group>"; };
+		AF07CE4D1DB8C705005A7718 /* Evernote.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Evernote.storyboard; sourceTree = "<group>"; };
+		AF07CE4E1DB8C705005A7718 /* EvernoteListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvernoteListCell.xib; sourceTree = "<group>"; };
+		AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedListVC.swift; sourceTree = "<group>"; };
+		AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteLayout.swift; sourceTree = "<group>"; };
+		AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF07CDD61DB87012005A7718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDEA1DB87012005A7718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDF51DB87012005A7718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF07CDD01DB87012005A7718 = {
+			isa = PBXGroup;
+			children = (
+				AF07CDDB1DB87012005A7718 /* LAnimation */,
+				AF07CDF01DB87012005A7718 /* LAnimationTests */,
+				AF07CDFB1DB87012005A7718 /* LAnimationUITests */,
+				AF07CDDA1DB87012005A7718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF07CDDA1DB87012005A7718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CDD91DB87012005A7718 /* LAnimation.app */,
+				AF07CDED1DB87012005A7718 /* LAnimationTests.xctest */,
+				AF07CDF81DB87012005A7718 /* LAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF07CDDB1DB87012005A7718 /* LAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE161DB87056005A7718 /* Bundle */,
+				AF07CE171DB87056005A7718 /* Classes */,
+				AF07CE1D1DB87056005A7718 /* StoryBoard */,
+				AF07CDDC1DB87012005A7718 /* AppDelegate.swift */,
+				AF07CDE31DB87012005A7718 /* Assets.xcassets */,
+				AF07CDE81DB87012005A7718 /* Info.plist */,
+			);
+			path = LAnimation;
+			sourceTree = "<group>";
+		};
+		AF07CDF01DB87012005A7718 /* LAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CDF11DB87012005A7718 /* LAnimationTests.swift */,
+				AF07CDF31DB87012005A7718 /* Info.plist */,
+			);
+			path = LAnimationTests;
+			sourceTree = "<group>";
+		};
+		AF07CDFB1DB87012005A7718 /* LAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CDFC1DB87012005A7718 /* LAnimationUITests.swift */,
+				AF07CDFE1DB87012005A7718 /* Info.plist */,
+			);
+			path = LAnimationUITests;
+			sourceTree = "<group>";
+		};
+		AF07CE161DB87056005A7718 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		AF07CE171DB87056005A7718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE551DB8C7D7005A7718 /* AnimatedListVC */,
+				AF07CE461DB8C61D005A7718 /* EvernoteListVC */,
+				AF07CE2B1DB87094005A7718 /* AnimatedPageControl */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF07CE1D1DB87056005A7718 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE271DB87080005A7718 /* LaunchScreen.storyboard */,
+				AF07CE281DB87080005A7718 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AF07CE2B1DB87094005A7718 /* AnimatedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE2C1DB87094005A7718 /* LNAnimatedPageControl */,
+				AF07CE331DB87094005A7718 /* PageControlCell.swift */,
+				AF07CE341DB87094005A7718 /* PageControlVC.swift */,
+			);
+			path = AnimatedPageControl;
+			sourceTree = "<group>";
+		};
+		AF07CE2C1DB87094005A7718 /* LNAnimatedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE2D1DB87094005A7718 /* LNAnimatedPageControl.swift */,
+				AF07CE2E1DB87094005A7718 /* LNGooeyCircle.swift */,
+				AF07CE2F1DB87094005A7718 /* LNIndicator.swift */,
+				AF07CE301DB87094005A7718 /* LNPageLine.swift */,
+				AF07CE311DB87094005A7718 /* LNRotateRect.swift */,
+				AF07CE321DB87094005A7718 /* LNSpringLayerAnimation.swift */,
+			);
+			path = LNAnimatedPageControl;
+			sourceTree = "<group>";
+		};
+		AF07CE461DB8C61D005A7718 /* EvernoteListVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE4A1DB8C705005A7718 /* EvernoteListCell.swift */,
+				AF07CE4B1DB8C705005A7718 /* EvernoteTransition.swift */,
+				AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */,
+				AF07CE4D1DB8C705005A7718 /* Evernote.storyboard */,
+				AF07CE4E1DB8C705005A7718 /* EvernoteListCell.xib */,
+				AF07CE471DB8C677005A7718 /* EvernoteListVC.swift */,
+				AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */,
+			);
+			path = EvernoteListVC;
+			sourceTree = "<group>";
+		};
+		AF07CE551DB8C7D7005A7718 /* AnimatedListVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */,
+			);
+			path = AnimatedListVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF07CDD81DB87012005A7718 /* LAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF07CE011DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimation" */;
+			buildPhases = (
+				AF07CDD51DB87012005A7718 /* Sources */,
+				AF07CDD61DB87012005A7718 /* Frameworks */,
+				AF07CDD71DB87012005A7718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAnimation;
+			productName = LAnimation;
+			productReference = AF07CDD91DB87012005A7718 /* LAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF07CDEC1DB87012005A7718 /* LAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF07CE041DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimationTests" */;
+			buildPhases = (
+				AF07CDE91DB87012005A7718 /* Sources */,
+				AF07CDEA1DB87012005A7718 /* Frameworks */,
+				AF07CDEB1DB87012005A7718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF07CDEF1DB87012005A7718 /* PBXTargetDependency */,
+			);
+			name = LAnimationTests;
+			productName = LAnimationTests;
+			productReference = AF07CDED1DB87012005A7718 /* LAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF07CDF71DB87012005A7718 /* LAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF07CE071DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimationUITests" */;
+			buildPhases = (
+				AF07CDF41DB87012005A7718 /* Sources */,
+				AF07CDF51DB87012005A7718 /* Frameworks */,
+				AF07CDF61DB87012005A7718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF07CDFA1DB87012005A7718 /* PBXTargetDependency */,
+			);
+			name = LAnimationUITests;
+			productName = LAnimationUITests;
+			productReference = AF07CDF81DB87012005A7718 /* LAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF07CDD11DB87012005A7718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = vvusu;
+				TargetAttributes = {
+					AF07CDD81DB87012005A7718 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AF07CDEC1DB87012005A7718 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF07CDD81DB87012005A7718;
+					};
+					AF07CDF71DB87012005A7718 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF07CDD81DB87012005A7718;
+					};
+				};
+			};
+			buildConfigurationList = AF07CDD41DB87012005A7718 /* Build configuration list for PBXProject "LAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF07CDD01DB87012005A7718;
+			productRefGroup = AF07CDDA1DB87012005A7718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF07CDD81DB87012005A7718 /* LAnimation */,
+				AF07CDEC1DB87012005A7718 /* LAnimationTests */,
+				AF07CDF71DB87012005A7718 /* LAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF07CDD71DB87012005A7718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF07CE2A1DB87080005A7718 /* Main.storyboard in Resources */,
+				AF07CDE41DB87012005A7718 /* Assets.xcassets in Resources */,
+				AF07CE531DB8C705005A7718 /* Evernote.storyboard in Resources */,
+				AF07CE291DB87080005A7718 /* LaunchScreen.storyboard in Resources */,
+				AF07CE541DB8C705005A7718 /* EvernoteListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDEB1DB87012005A7718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDF61DB87012005A7718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF07CDD51DB87012005A7718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF07CE5D1DB9BB01005A7718 /* EvernoteVC.swift in Sources */,
+				AF07CDDD1DB87012005A7718 /* AppDelegate.swift in Sources */,
+				AF07CE3C1DB87094005A7718 /* PageControlVC.swift in Sources */,
+				AF07CE501DB8C705005A7718 /* EvernoteListCell.swift in Sources */,
+				AF07CE351DB87094005A7718 /* LNAnimatedPageControl.swift in Sources */,
+				AF07CE591DB9BA00005A7718 /* EvernoteLayout.swift in Sources */,
+				AF07CE511DB8C705005A7718 /* EvernoteTransition.swift in Sources */,
+				AF07CE361DB87094005A7718 /* LNGooeyCircle.swift in Sources */,
+				AF07CE371DB87094005A7718 /* LNIndicator.swift in Sources */,
+				AF07CE391DB87094005A7718 /* LNRotateRect.swift in Sources */,
+				AF07CE381DB87094005A7718 /* LNPageLine.swift in Sources */,
+				AF07CE3B1DB87094005A7718 /* PageControlCell.swift in Sources */,
+				AF07CE571DB8C804005A7718 /* AnimatedListVC.swift in Sources */,
+				AF07CE481DB8C677005A7718 /* EvernoteListVC.swift in Sources */,
+				AF07CE3A1DB87094005A7718 /* LNSpringLayerAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDE91DB87012005A7718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF07CDF21DB87012005A7718 /* LAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF07CDF41DB87012005A7718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF07CDFD1DB87012005A7718 /* LAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF07CDEF1DB87012005A7718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF07CDD81DB87012005A7718 /* LAnimation */;
+			targetProxy = AF07CDEE1DB87012005A7718 /* PBXContainerItemProxy */;
+		};
+		AF07CDFA1DB87012005A7718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF07CDD81DB87012005A7718 /* LAnimation */;
+			targetProxy = AF07CDF91DB87012005A7718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF07CDFF1DB87012005A7718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF07CE001DB87012005A7718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF07CE021DB87012005A7718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF07CE031DB87012005A7718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF07CE051DB87012005A7718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAnimation.app/LAnimation";
+			};
+			name = Debug;
+		};
+		AF07CE061DB87012005A7718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAnimation.app/LAnimation";
+			};
+			name = Release;
+		};
+		AF07CE081DB87012005A7718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LAnimation;
+			};
+			name = Debug;
+		};
+		AF07CE091DB87012005A7718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.w.LAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF07CDD41DB87012005A7718 /* Build configuration list for PBXProject "LAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF07CDFF1DB87012005A7718 /* Debug */,
+				AF07CE001DB87012005A7718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF07CE011DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF07CE021DB87012005A7718 /* Debug */,
+				AF07CE031DB87012005A7718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF07CE041DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF07CE051DB87012005A7718 /* Debug */,
+				AF07CE061DB87012005A7718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF07CE071DB87012005A7718 /* Build configuration list for PBXNativeTarget "LAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF07CE081DB87012005A7718 /* Debug */,
+				AF07CE091DB87012005A7718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF07CDD11DB87012005A7718 /* Project object */;
+}
