@@ -17,7 +17,7 @@ class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        dataArr = ["AnimatedPageControl","EvernoteListVC",""]
+        dataArr = ["AnimatedPageControl","EvernoteListVC","PullToRefreshVC"]
         // Do any additional setup after loading the view.
     }
 
@@ -57,6 +57,10 @@ class AnimatedListVC: UIViewController,UITableViewDelegate,UITableViewDataSource
         case 1:
             let evernoteListVC = EvernoteListVC()
             self.navigationController?.pushViewController(evernoteListVC, animated: true)
+            break
+        case 2:
+            let pullToRefreshVC = PullToRefreshVC()
+            self.navigationController?.pushViewController(pullToRefreshVC, animated: true)
             break
         default: break
         }

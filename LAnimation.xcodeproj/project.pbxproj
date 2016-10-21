@@ -29,6 +29,8 @@
 		AF07CE571DB8C804005A7718 /* AnimatedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */; };
 		AF07CE591DB9BA00005A7718 /* EvernoteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */; };
 		AF07CE5D1DB9BB01005A7718 /* EvernoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */; };
+		AF07CE601DB9C19A005A7718 /* PullToRefreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07CE5F1DB9C19A005A7718 /* PullToRefreshVC.swift */; };
+		AF07CE621DB9C292005A7718 /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF07CE611DB9C292005A7718 /* RefreshContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedListVC.swift; sourceTree = "<group>"; };
 		AF07CE581DB9BA00005A7718 /* EvernoteLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteLayout.swift; sourceTree = "<group>"; };
 		AF07CE5C1DB9BB01005A7718 /* EvernoteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteVC.swift; sourceTree = "<group>"; };
+		AF07CE5F1DB9C19A005A7718 /* PullToRefreshVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshVC.swift; sourceTree = "<group>"; };
+		AF07CE611DB9C292005A7718 /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				AF07CE551DB8C7D7005A7718 /* AnimatedListVC */,
+				AF07CE5E1DB9BF35005A7718 /* PullToRefreshVC */,
 				AF07CE461DB8C61D005A7718 /* EvernoteListVC */,
 				AF07CE2B1DB87094005A7718 /* AnimatedPageControl */,
 			);
@@ -224,6 +229,15 @@
 				AF07CE561DB8C804005A7718 /* AnimatedListVC.swift */,
 			);
 			path = AnimatedListVC;
+			sourceTree = "<group>";
+		};
+		AF07CE5E1DB9BF35005A7718 /* PullToRefreshVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF07CE5F1DB9C19A005A7718 /* PullToRefreshVC.swift */,
+				AF07CE611DB9C292005A7718 /* RefreshContents.xib */,
+			);
+			path = PullToRefreshVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +352,7 @@
 				AF07CE531DB8C705005A7718 /* Evernote.storyboard in Resources */,
 				AF07CE291DB87080005A7718 /* LaunchScreen.storyboard in Resources */,
 				AF07CE541DB8C705005A7718 /* EvernoteListCell.xib in Resources */,
+				AF07CE621DB9C292005A7718 /* RefreshContents.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +385,7 @@
 				AF07CE591DB9BA00005A7718 /* EvernoteLayout.swift in Sources */,
 				AF07CE511DB8C705005A7718 /* EvernoteTransition.swift in Sources */,
 				AF07CE361DB87094005A7718 /* LNGooeyCircle.swift in Sources */,
+				AF07CE601DB9C19A005A7718 /* PullToRefreshVC.swift in Sources */,
 				AF07CE371DB87094005A7718 /* LNIndicator.swift in Sources */,
 				AF07CE391DB87094005A7718 /* LNRotateRect.swift in Sources */,
 				AF07CE381DB87094005A7718 /* LNPageLine.swift in Sources */,
